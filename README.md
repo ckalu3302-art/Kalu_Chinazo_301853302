@@ -1,7 +1,13 @@
-# Chinazo Kalu — MIT 8103
+# Daily Staff Commute Seat Picker
 
-Student ID: 301853302
+Chinazo Kalu · Student ID 301853302
 
-Daily Staff Commute Seat Picker. Entities: Staff, Bus, Departure, SeatPick. A departure references a bus; each pick references a staff member and departure. UNIQUE(departure_id, seat_no) prevents duplicate seat picks. Query occupied seats by departure and compare with bus capacity. A SQL transaction inserts a pick; MongoDB logs a snapshot with the pick, staff, departure, and bus.
+The portfolio uses fictional records for Daily Staff Commute Seat Picker.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Kalu_Chinazo_301853302_FinalSummary.md) · [PDF](Kalu_Chinazo_301853302_FinalSummary.pdf)
